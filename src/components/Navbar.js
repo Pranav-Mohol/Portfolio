@@ -2,14 +2,12 @@ import React from 'react'
 import {NavLink} from 'react-router-dom'
 import image from '../assets/Photo.JPG'
 
-//TODO: Import image avatar
 function Navbar() {
     return (
         <div className="Navbar">
             <nav className="nav">
                 <div className="profile">
-                    <img src={image} alt="This is img" />
-                {/*TODO:: import images */}
+                    <img src={image} alt="Pranav Mohol" />
                 </div>
                 
                 <ul className="nav-items">
