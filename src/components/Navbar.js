@@ -1,6 +1,6 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
-//import image from '../img/Photo.JPG'
+import image from '../assets/Photo.JPG'
 
 //TODO: Import image avatar
 function Navbar() {
@@ -8,7 +8,7 @@ function Navbar() {
         <div className="Navbar">
             <nav className="nav">
                 <div className="profile">
-                    <img src="" alt="This is img" />
+                    <img src={image} alt="This is img" />
                 {/*TODO:: import images */}
                 </div>
                 
