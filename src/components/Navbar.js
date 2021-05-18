@@ -1,5 +1,7 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
+//import image from '../img/Photo.JPG'
+
 //TODO: Import image avatar
 function Navbar() {
     return (
