@@ -1,4 +1,5 @@
 import React from 'react'
+//icons for social media
 import {faFacebook,faGithub,faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
@@ -18,12 +19,18 @@ function Home() {
                     Perspiciatis voluptatibus dignissimos tempora porro voluptas!
                 </p>
                 <div className="icons">
+                    {/**Facebook Link */}
+                    {/*TODO: Add fb link */}
                     <Link to="/" className="icon-holder">
                         <FontAwesomeIcon icon={faFacebook} className="icon fb"/>
                     </Link>
+                    {/**github Link */}
+                    {/*TODO: Add github link */}
                     <Link to="/" className="icon-holder">
                         <FontAwesomeIcon icon={faGithub} className="icon gh"/>
                     </Link>
+                    {/**linkedIn Link */}
+                    {/*TODO: Add linkedin link */}
                     <Link to="/" className="icon-holder">
                         <FontAwesomeIcon icon={faLinkedin} className="icon ld"/>
                     </Link>

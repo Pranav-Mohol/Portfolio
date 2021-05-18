@@ -1,3 +1,4 @@
+//main layout
 .Navbar{
     height: 100vh;
     .nav{
@@ -32,6 +33,7 @@
                     display: block;
                     padding: 0.4rem 0;
                     position: relative;
+                    //transition before
                     &::before{
                         content: "";
                         position: absolute;
@@ -41,12 +43,13 @@
                         height: 100%;
                         background-color: #0381ff33;
                         transform-origin: bottom;
+                        //Transition on the navbar
                         transform: scale(0);
                         overflow-x: hidden;
                         transition: transform .6s, .2s width .5s cubic-bezier(1,-0.16,0.6,1.35);
                     }
 
-                    
+                    //on hover
                     &:hover::before{
                         width: 100%;
                         transform: scale(1);
@@ -68,6 +71,7 @@
     }
 }
 
+//setting background for active Nav-Link
 .active{
     background-color: #037fff;
 }
